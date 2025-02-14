@@ -1,44 +1,60 @@
-TESTE TESTE E TESTE
+# 📌 Repositório: InformaticaWeb 2024-2025
 
-# informaticaWeb
-UC2: Desenvolver Aplicações para Websites
-Prof° Esp. Luciano dos Santos Müller
+## 📚 Sobre o Projeto
+Este repositório faz parte das atividades do curso **Técnico em Informática para Web** no Senac PR (2024-2025). Aqui, os alunos irão colaborar em projetos, praticar conceitos de versionamento com GitHub e desenvolver aplicações web.
 
-Carga Horária: 72 Horas
+## 🚀 Como Clonar e Configurar no VS Code
+Para começar a trabalhar com este repositório no **VS Code**, siga os passos abaixo:
 
-**Objetivos de Aprendizagem**
-1. Criar imagens, layouts e animações otimizadas para websites de acordo com os princípios de comunicação visual, normas e tendências de mercado.
-2. Utilizar linguagem de marcação de conteúdo e estilo de acordo com as normas e padrões tecnológicos.
-3. Testar padrões de acessibilidade e usabilidade do website de acordo com as normas.
-4. Analisar inconsistências no funcionamento do website de acordo com os padrões W3C.
+1. **Abra o terminal no VS Code** (`Ctrl + ` `).
+2. **Clone o repositório (se for instrutor) ou seu fork (se for aluno):**
+   ```bash
+   git clone https://github.com/Luciano/informaticaWeb2024-2025.git
+   ```
+   Se você for aluno e fez um fork, substitua `Luciano` pelo seu nome de usuário no GitHub.
+3. **Entre na pasta do projeto:**
+   ```bash
+   cd informaticaWeb2024-2025
+   ```
+4. **Abra o projeto no VS Code:**
+   ```bash
+   code .
+   ```
 
-**Conhecimentos**
-- Imagem Digital: Conceitos de vetor e bitmap, formatos e aplicações, unidades de medida, densidade de pixels, taxa de bits, animações web.
-- Comunicação Visual: Tipografia, teoria e modos de cor, grid e alinhamento, Gestalt (conceito e aplicabilidade).
-- Wireframes e Protótipos: Conceito, estrutura e desenvolvimento.
-- Design Responsivo: Conceitos e aplicações.
-- Projeto de Website: Características funcionais, usabilidade, acessibilidade e ergonomia.
-- Estrutura Semântica: Conceitos, linguagem de marcação de conteúdo.
-- Estilização de Páginas: Definições de estilos e integração com estrutura de conteúdo.
-- Web Standards: Boas práticas e padrões recomendados pelo W3C.
-- Desempenho e Compatibilidade: Conceito e ferramentas.
-- Código do Website: Testes, validação e correção.
-- Content Management System (CMS): Interface, requisitos básicos, servidor local e banco de dados, configuração de usuários administrativos, customização, CSS e temas, plug-ins, implantação e publicação.
-- Lei Geral de Proteção de Dados Pessoais: Fundamentos, aplicabilidade, princípios legais, direitos, transferência internacional de dados, agentes de tratamento, encarregado pelo tratamento de dados pessoais (DPO), segurança, boas práticas, fiscalização e penalidades, e definição e papel da ANPD – Agência Nacional de Proteção de Dados.
+## 🔄 Mantendo o Fork Atualizado (Para Alunos)
+Se você fez um **fork**, precisa sincronizá-lo com o repositório original regularmente:
+```bash
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+```
 
-**Habilidades**
-- Aplicar o sistema de cor pertinente ao layout da aplicação.
-- Organizar conteúdo visual e textual para web.
-- Integrar linguagens de estilo e marcação de conteúdo.
-- Utilizar ferramentas para análise de desempenho.
-- Testar compatibilidade nos diversos navegadores.
-- Atitudes/Valores
-- Cordialidade no trato com as pessoas.
-- Sigilo no tratamento de dados e informações.
-- Iniciativa na proposição de soluções de projetos.
-- Proatividade no desenvolvimento das atividades profissionais.
-- Colaboração no desenvolvimento do trabalho em equipe.
-- Transparência no tratamento e proteção de dados pessoais.
-- Zelo pela organização do ambiente de trabalho.
-- Respeito aos direitos de propriedade intelectual.
-- Comprometimento com padrões de usabilidade e acessibilidade na web.
+## 🛠 Fluxo de Trabalho no GitHub
+1. **Criar uma branch para a nova funcionalidade ou correção:**
+   ```bash
+   git checkout -b minha-feature
+   ```
+2. **Fazer alterações no código e adicionar os arquivos alterados:**
+   ```bash
+   git add .
+   ```
+3. **Criar um commit com uma mensagem descritiva:**
+   ```bash
+   git commit -m "Descrição da alteração"
+   ```
+4. **Enviar as alterações para o GitHub:**
+   ```bash
+   git push origin minha-feature
+   ```
+5. **Criar um Pull Request no GitHub para mesclar as mudanças.**
+
+## 📢 Regras de Contribuição
+- Sempre crie uma nova branch antes de começar uma alteração.
+- Escreva commits claros e descritivos.
+- Mantenha o código organizado e bem documentado.
+- Antes de enviar um Pull Request, certifique-se de que seu código está atualizado com o repositório original.
+
+---
+
+📌 **Dúvidas?** Entre em contato com o instrutor Luciano ou abra uma **issue** no repositório. Vamos desenvolver juntos! 🚀

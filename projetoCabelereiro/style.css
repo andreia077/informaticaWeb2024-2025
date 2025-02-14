@@ -1,0 +1,11 @@
+html, body {
+    height: 100%; /* Garante que o body ocupe toda a altura da tela */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    display: flex; /* Usa o flexbox no body */
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    justify-content: center; /* Centraliza verticalmente os itens */
+    align-items: center; /* Centraliza horizontalmente os itens */
+    background-color: black; /* Cor de fundo */
+    color: white; /* Cor do texto padrão */
+}
